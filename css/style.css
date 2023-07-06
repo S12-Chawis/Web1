@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.soportecliente{
+    position: fixed;
+    width: 50px;
+    z-index: 1;
+    opacity: 1;
+    display: flex;
+    justify-content: right;
+    height: 70px;
+    bottom: 10px;
+    right: 30px;
+}
+header{
+    background-color:#212529;
+    width: 100%;
+    text-align: left;
+    color:  #f8f9fa;
+    height: 10%;
+    padding: 12px;
+    border-color:#000000;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: flex;
+}
+#header_izquierdo{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    height: 10%;
+}   
+#img1{
+   width: 20%;
+   height: 10%;
+   margin-left: 80px;
+}
+#header_derecho{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    height: 100%;
+}
+
+#img2{
+    width: 8%;
+    height: 10%;
+    margin-right: 80px;
+ }
+nav{
+    background-color: #212529;
+    color: rgb(116, 112, 112);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 20%;
+    padding: 65px;
+    font-family:Arial, Helvetica, sans-serif ;
+    line-height: 2.0em;
+    
+
+}
+h1{
+    font-size: xx-large;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+
+}
+#text{
+    color: #adb5bd;
+    font-weight: 100;
+
+}
+
+#inferior{
+    background-color:#212529;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+}
+#nav_boton_izquierdo{
+    background-color: #0d6efd;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    font-size: smaller;
+    color: #fff;
+}
+#nav_boton_izquierdo:hover{
+    background-color: #0045b4;
+}
+#nav_boton_derecho{
+    background-color: rgba(173, 181, 189, 0.75);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    font-size: smaller;
+    color: #fff;
+}
+#nav_boton_derecho:hover{
+    background-color: #585858;
+}
+main{
+    background-color:#343a40;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    font-family:Arial, Helvetica, sans-serif ;
+    word-spacing: 1px;
+}
+section{
+    background-color:#212529;
+    margin: 8px;
+    height: 400px;
+    width: 380px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 7px;
+}
+img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; 
+}
+article{
+    background-color: #212529;
+    padding: 4%;
+    text-align: left;
+    height: 25%;
+    color: #adb5bd;
+}
+#footer_imagen{
+    background-color: #212529;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+#boton_izquierdo{
+    background-color: #212529;
+    display: flex;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-color:#6c757d;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 100;
+}
+#boton_izquierdo:hover{
+    background-color: #c6cacf;
+}
+#subrayado{
+    text-decoration: none;
+    color: #6c757d;
+}
+#boton_derecho{
+    background-color:#212529;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-color: #6c757d;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 100;
+}
+#boton_derecho:hover{
+    background-color: #c6cacf;
+}
+h4{
+    background-color:#212529;
+    text-align: right;
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+footer{
+    background-color:#212529;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    width: 92%;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    font-size: small;
+    word-spacing: 3px;
+    color:#6c757d;
+}
+h3{
+    font-weight: 100;
+}
+#enlace_footer{
+    color:#6ea8fe ;
+
+}
+#footer_izquierdo{
+    justify-content: left;
+    width: 70%;
+}
